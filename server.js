@@ -22,7 +22,7 @@ app.use(cookieParser());
 // CORS - allow frontend origin (set CLIENT_URL in .env)
 app.use(
   cors({
-    origin: ["https://pasovit-frontend-pied.vercel.app/","http://localhost:5173", "http://localhost:3000"],
+    origin: ["https://pasovit-frontend-pied.vercel.app","http://localhost:5173", "http://localhost:3000"],
     credentials: true,
   })
 );
